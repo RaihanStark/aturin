@@ -5,9 +5,9 @@ const theme = {
   colors: {
     bgDark: "#1F1D2B",
     lightDark: "#252836",
-    persianGreen: "#06B49A",
-    lightBlue: "#AFDBD2",
-    onyx: "#36313D",
+    green: "#23B17E",
+    purple: "#B548C6",
+    orange: "#FFBF47",
   },
 };
 

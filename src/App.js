@@ -2,7 +2,7 @@ import React from "react";
 import Theme from "./Theme";
 
 import styled from "styled-components";
-import { useSpring, animated } from "react-spring";
+import { useSpring, animated, config } from "react-spring";
 
 import Header from "./components/Header/Header";
 
@@ -21,6 +21,7 @@ const App = () => {
     transform: "translateY(0px)",
     from: { transform: "translateY(-10em)" },
     delay: 500,
+    config: config.default,
   });
 
   return (
