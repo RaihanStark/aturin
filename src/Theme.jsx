@@ -9,6 +9,9 @@ const theme = {
     purple: "#B548C6",
     orange: "#FFBF47",
   },
+  sizes: {
+    borderRadius: "20px",
+  },
 };
 
 const Theme = ({ children }) => (

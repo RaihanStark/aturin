@@ -18,11 +18,15 @@ const Menu = styled.div`
   border-left: ${(props) =>
     props.withBorder ? "1px solid rgba(59, 59, 59, 0.699)" : ""};
 
-  border-top-left-radius: ${(props) => (props.first ? "25px" : "")};
-  border-bottom-left-radius: ${(props) => (props.first ? "25px" : "")};
+  border-top-left-radius: ${(props) =>
+    props.first ? props.theme.sizes.borderRadius : ""};
+  border-bottom-left-radius: ${(props) =>
+    props.first ? props.theme.sizes.borderRadius : ""};
 
-  border-top-right-radius: ${(props) => (props.last ? "25px" : "")};
-  border-bottom-right-radius: ${(props) => (props.last ? "25px" : "")};
+  border-top-right-radius: ${(props) =>
+    props.last ? props.theme.sizes.borderRadius : ""};
+  border-bottom-right-radius: ${(props) =>
+    props.last ? props.theme.sizes.borderRadius : ""};
 
   transition: all 200ms ease-in-out;
   &:hover {

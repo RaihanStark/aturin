@@ -7,7 +7,7 @@ const CardContainer = styled.div`
   /* max-width: 350px; */
 
   /* padding: 1em 1.5em; */
-  border-radius: 25px;
+  border-radius: ${(props) => props.theme.sizes.borderRadius};
   color: white;
 `;
 
